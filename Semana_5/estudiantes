@@ -1,0 +1,26 @@
+[
+    {"nombre": "Juan", 
+"edad": 30, 
+"esEstudiante": true 
+},
+
+{"nombre": "Maria", 
+"edad": 9, 
+"esEstudiante": true 
+},
+
+{"nombre": "Pepe", 
+"edad": 8, 
+"esEstudiante": true 
+},
+
+{"nombre": "Carlos", 
+"edad": 24, 
+"esEstudiante": true 
+},
+
+{"nombre": "Messi", 
+"edad": 33, 
+"esEstudiante": true 
+}
+]

@@ -1,0 +1,31 @@
+const Alumnos=`[
+    {"nombre": "Juan", 
+"edad": 30, 
+"esEstudiante": true 
+},
+
+{"nombre": "Ana", 
+"edad": 20, 
+"esEstudiante": true 
+},
+
+{"nombre": "Luis", 
+"edad": 25, 
+"esEstudiante": false
+},
+
+{"nombre": "Carlos", 
+"edad": 22, 
+"esEstudiante": true 
+},
+
+{"nombre": "Messi", 
+"edad": 33, 
+"esEstudiante": true 
+}
+]`
+console.log(typeof Alumnos);
+const jsonData =JSON.parse(Alumnos)
+console.log(typeof jsonData)
+const Alumnosmayor21 = jsonData.filter((Alumnos)=> Alumnos.esEstudiante && Alumnos.edad>21);
+console.log(Alumnosmayor21)
