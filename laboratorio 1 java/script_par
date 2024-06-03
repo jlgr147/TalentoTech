@@ -1,0 +1,15 @@
+let numero = prompt("Ingresa un número entero:");
+numero = parseInt(numero);
+
+if (isNaN(numero)) {
+    alert("No ingresaste un número válido.");
+} else {
+    if (numero % 2 === 0) {
+       // alert(numero + " es un número par.");
+        numero="es un número par"
+    } else {
+        //alert(numero + " es un número impar.");
+        numero="es un número impar"
+    }
+}
+alert(numero)

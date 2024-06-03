@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Valor par o Impar</title>
+</head>
+<body>
+    <h1>Mostrar Valor JavaScript</h1>
+    <script src="script_lab"></script>
+</body>
+</html>

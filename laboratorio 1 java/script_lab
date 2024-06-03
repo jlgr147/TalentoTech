@@ -1,0 +1,29 @@
+// Entradas
+let dia = prompt("Ingrese día")
+// proceso
+if(dia ==="lunes"){
+    dia= ("laboral")
+}
+else if(dia === "martes"){
+    dia =("laboral")
+}
+else if(dia === "miercoles"){
+    dia =("laboral")
+}
+else if(dia === "jueves"){
+    dia =("laboral")
+}
+else if(dia === "viernes"){
+    dia =("laboral")
+}
+else if(dia === "sabado"||dia === "sábado" ){
+    dia =("No es laboral")
+}
+else if(dia === "domingo"){
+    dia =("No es laboral")
+}
+else{
+    dia= ("ingrese un valor correcto")
+}
+//resultado
+alert(dia)

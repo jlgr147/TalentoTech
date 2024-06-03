@@ -1,0 +1,28 @@
+// variables
+entrada=prompt("Ingresa un numero del 1 a 7")
+numero = entrada
+// proceso 
+if(numero==1){
+alert("el día es Lunes")
+}
+else if(numero==2){
+    alert("el día es Martes")
+    }
+else if(numero==3){
+    alert("el día es Miercoles")
+    }
+else if(numero==4){
+    alert("el día es Jueves")
+    }
+else if(numero==5){
+    alert("el día es Viernes")
+    }
+else if(numero==6){
+    alert("el día es Sábado")
+    }
+else if(numero==7){
+    alert("el día es Domingo")
+    }
+else{
+    alert("Ingrese un numero valido 😞")
+}

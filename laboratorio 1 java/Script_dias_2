@@ -1,0 +1,33 @@
+// entrada
+let entrada = parseInt(prompt("Ingresa un numero del 1 a 7"))
+//numero = entrada
+let mensaje =""
+// proceso 
+switch (entrada) {
+    case 1:
+        mensaje = "Lunes"
+        break
+    case 2:
+        mensaje = "martes"
+        break
+    case 3:
+        mensaje = "Miercoles"
+        break
+    case 4:
+        mensaje = "Jueves"
+        break
+    case 5:
+        mensaje = "Viernes"
+        break
+    case 6:
+        mensaje = "Sábado"
+        break
+    case 7:
+        mensaje = "Domingo"
+        break
+    default:
+        mensaje = "Dia de la semana Invalido 😞"
+        break
+}
+//resultado
+alert(mensaje)  
