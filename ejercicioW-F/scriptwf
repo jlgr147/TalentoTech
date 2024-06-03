@@ -1,0 +1,27 @@
+//while
+// Función que muestra un contador usando alertas
+function mostrarAlerta() {
+/* var contador = 0;
+    while (contador < 8) {
+        alert("valor: " + contador);
+        contador++;
+    }
+}*/
+
+//do
+//do{
+//  alert("valor : "+ contador)
+  //  contador++ 
+//}while(contador<6)
+
+const paciente={
+    Nombre: "Juan Jose", 
+    Edad: "8 años", 
+    Genero: "M",
+    Lugar_de_nacimiento: "Barbosa",
+    anno_nacimiento: "2015",
+
+}
+for(const key in paciente){
+    alert(key + " : "+ paciente[key])
+} }
